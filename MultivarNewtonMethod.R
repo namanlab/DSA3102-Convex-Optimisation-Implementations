@@ -1,6 +1,6 @@
 # Newton method
 
-# g and H are gradient and hessian of f
+# g and H are gradient and hessian of f respectively
 newton_method <- function(f, g = NULL, H = NULL, x0 = NULL, d, tol = 0.00001){
   count = 0
   if (is.null(x0)){x0 = rep(0, d)}
