@@ -1,4 +1,4 @@
-# Newton method
+# Newton Method
 
 # g and H are gradient and hessian of f respectively
 newton_method <- function(f, g = NULL, H = NULL, x0 = NULL, d, tol = 0.00001){
