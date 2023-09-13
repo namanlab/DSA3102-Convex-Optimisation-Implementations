@@ -1,5 +1,5 @@
 # Jacobi method: supports parallelization
-# Newton for minimizer of univariate function
+# Newton for minimiser of univariate function
 
 jacobi_coord_desc <- function(f, xi = NULL, d, max_iter = 1000){
   count = 1
